@@ -1,0 +1,132 @@
+body{
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  padding: 0px;
+  margin: 0px;
+}
+
+.topo{
+  background-color: #1289A7;
+  color: white;
+  padding: 30px;
+  text-align: center;
+  font-size: large;
+
+}
+
+.menu{
+  list-style-type: initial;
+  background-color: #12CBC4;
+  filter: opacity(0.6);
+  padding: 30px;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.bu_desktop{
+  color: black;
+  float: left;
+  margin-top: -10px;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.bu_laptop{
+  color: black;
+  float: left;
+  margin-top: -10px;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.bu_impressora{
+  color: black;
+  float: left;
+  margin-top: -10px;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.bu_buscar{
+  color: black;
+  float: right;
+  margin-top: -10px;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.img_login{
+  margin-left: 25px;
+  margin-right: 25px;
+  float: right;
+  margin-top: -22px;
+  opacity: 1;  
+}
+
+.img_carrinho{
+  margin-left: 25px;
+  margin-right: 25px;
+  float: right;
+  margin-top: -22px;
+  opacity: 1;
+}
+
+table{
+  width: 100%;
+  padding: 80px;
+  font-family: Arial;  
+  text-align: center; 
+
+}
+
+th {
+  background: rgb(0,191,255) ;
+  
+}
+
+
+.cadastro {
+  bottom: 0;
+  position: fixed;
+}
+
+input {
+  width: 140px;
+  background:rgb(0,191,255);
+}
+
+.botao {
+  background: rgb(99, 92, 92) ;
+  font-family: arial;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.resposta {
+  color:  rgb(0,191,255) ;
+  width: 100;
+
+}
+
+.carrinho {
+  float: right;
+  margin-right: 30px;
+  width: auto;
+  position: relative;
+  background: white;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+
+.rodape{
+  background-color:  #1289A7;
+  position: absoluted;
+  text-align: center;
+  color: white;
+  margin-top: 80px;
+  padding-bottom: 30px;
+  width: 100%;
+}

@@ -1,0 +1,107 @@
+body{
+font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+position: absolute;    
+width: 100%;
+height: 100%;
+padding: 0px;
+margin: 0px;
+}
+
+.topo{
+background-color: #1289A7;
+color: white;
+padding: 30px;
+text-align: center;
+font-size: large;
+
+}
+
+.menu{
+list-style-type: initial;
+background-color: #12CBC4;
+filter: opacity(0.6);
+padding: 30px;
+margin-top: 0;
+margin-bottom: 0;
+}
+
+
+.buscar{
+text-decoration: none;
+color: black;
+font-size: 12pt;
+float: left;
+margin-top: -10px;
+margin-left: 10px;
+margin-right: 10px;
+}
+
+.img_1{
+margin-left: 25px;
+margin-right: 25px;
+float: right;
+margin-top: -22px;
+opacity: 1;
+
+}
+
+.img_2{
+margin-left: 25px;
+margin-right: 25px;
+float: right;
+margin-top: -22px;
+opacity: 1;
+}
+
+.botao_carrinho {
+    background: rgb(112,128,144);
+    font-weight: bold;
+    cursor: pointer;
+    margin-left: 80%;
+    font-size: 15px;
+    border-radius: 5px;
+    padding: 10px;
+    margin-top: 40px;
+}
+
+.botao_carrinho:hover{
+    background: rgb(102,205,170);
+}
+th {
+    background: rgb(220,220,220);
+    padding: 20px;
+}
+table{
+   width: 60%;
+   margin-top: 3%;
+   margin-left: 30%;
+}
+
+th:hover{
+    background: rgb(192,192,192);
+}
+
+.botao_finalizar {
+    background: rgb(112,128,144);
+    font-weight: bold;
+    cursor: pointer;
+    margin-left: 80%;
+    font-size: 15px;
+    border-radius: 5px;
+    margin-top: 20%;
+    padding: 10px;
+}
+
+.botao_finalizar:hover{
+    background: rgb(102,205,170);
+}
+
+.rodape{
+    background-color:  #1289A7;
+    position: absolute;
+    text-align: center;
+    color: white;
+    padding-bottom: 30px;
+    width: 100%;
+    margin-top: 80px;
+  }
